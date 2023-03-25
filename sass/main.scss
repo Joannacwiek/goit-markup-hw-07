@@ -1,17 +1,19 @@
-@import "./utils/vars";
+@import "./utils/variables";
 @import "./components/advantages";
 @import "./components/clients";
 @import "./components/contact";
 @import "./components/filters";
-@import "./components/footer";
 @import "./components/footer-icons";
+@import "./components/footer";
 @import "./components/form";
 @import "./components/hero";
+@import "./components/images";
 @import "./components/modal";
 @import "./components/nav";
 @import "./components/signup";
 @import "./components/social-icons";
-@import "./components/images";
+@import "./components/team";
+@import "./components/we-do";
 
 body {
   font-family: "Roboto", sans-serif;
