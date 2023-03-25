@@ -1,0 +1,54 @@
+@import "./utils/vars";
+@import "./components/advantages";
+@import "./components/clients";
+@import "./components/contact";
+@import "./components/filters";
+@import "./components/footer";
+@import "./components/footer-icons";
+@import "./components/form";
+@import "./components/hero";
+@import "./components/modal";
+@import "./components/nav";
+@import "./components/signup";
+@import "./components/social-icons";
+@import "./components/images";
+
+body {
+  font-family: "Roboto", sans-serif;
+  /*background: #e5e5e5;*/
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+figure {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header {
+  padding: 10px 227px 8px 215px;
+  color: var(--brand-black);
+  border-bottom: solid 1px #ececec;
+  background-color: var(--white-color);
+  max-width: 1600px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto 0px auto;
+}

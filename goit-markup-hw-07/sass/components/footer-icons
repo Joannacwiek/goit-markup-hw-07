@@ -1,0 +1,22 @@
+.footer__list-icons li {
+  border-radius: 50%;
+  background-color: #3e3e3e;
+  fill: var(--white-color);
+}
+.footer__list-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer__item-icons:hover,
+.footer__item-icons:focus,
+.footer__item-icons:active {
+  background-color: var(--blue-color);
+  cursor: pointer;
+  fill: var(--white-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
