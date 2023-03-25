@@ -1,0 +1,40 @@
+.clients {
+  text-align: center;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+}
+.clients__list-item {
+  width: 170px;
+  height: 92px;
+  border: solid 1px;
+  border-color: $borderIcon;
+  border-radius: 4px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+.clients__list-item:hover,
+.clients__list-item:focus,
+.clients__list-item:active {
+  border-color: $mainActiveColor;
+  fill: $mainActiveColor;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients__icon-class {
+  fill: #afb1b8;
+  margin: 16px 32px;
+}
+.clients__icon-class:hover,
+.clients__icon-class:focus,
+.clients__icon-class:active {
+  fill: var(--blue-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

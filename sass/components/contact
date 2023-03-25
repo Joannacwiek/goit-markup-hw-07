@@ -1,0 +1,34 @@
+.contact__link:focus,
+.contact__link:hover {
+  color: var(--blue-color);
+  transform: scale(1.1);
+}
+.contact__link:active {
+  color: var(--blue-color);
+}
+.contact__link {
+  color: var(--brand-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact__set {
+  fill: #757575;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact__set:hover,
+.contact__set:focus {
+  fill: var(--blue-color);
+  cursor: pointer;
+}
+.contact__set:active {
+  fill: var(--blue-color);
+  cursor: pointer;
+}
