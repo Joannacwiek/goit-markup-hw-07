@@ -1,6 +1,6 @@
 .nav__container {
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .nav__logo {
@@ -24,9 +24,9 @@
 }
 .nav__link--current {
   color: $mainActive;
-}
-.nav__link--current:visited {
-  color: $mainActive;
+  &:visited {
+    color: $mainActive;
+  }
 }
 .nav__link.nav__link--current::after {
   content: "";
@@ -53,13 +53,12 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav__link:focus,
-.nav__link:hover {
-  color: $mainActive;
-  transform: scale(1.1);
-}
-.nav__link:active {
-  color: $mainActive;
+  &:focus,
+  &:hover {
+    color: $mainActive;
+    transform: scale(1.1);
+  }
+  &:active {
+    color: $mainActive;
+  }
 }

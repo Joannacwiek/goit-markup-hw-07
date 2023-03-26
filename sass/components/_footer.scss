@@ -18,24 +18,24 @@
   line-height: 1.71;
   text-decoration: none;
   font-style: normal;
+  &:focus,
+  &:hover,
+  &:active {
+    color: $textWhite;
+    outline-color: $mainActive;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &:visited {
+    color: $textWhite;
+  }
 }
+
 .footer__address {
   color: $textWhite;
 }
-.footer__link:focus,
-.footer__link:hover {
-  color: $textWhite;
-  outline-color: $mainActive;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer__link:active {
-  color: $textWhite;
-}
-.footer__link:visited {
-  color: $textWhite;
-}
+
 .highlight {
   color: $mainActive;
 }
@@ -47,7 +47,7 @@
   color: $textWhite;
   text-transform: uppercase;
   line-height: 1.14;
-  font-size: $fontBig;
+  font-size: $fontMedium;
 }
 .footer__flex {
   display: flex;

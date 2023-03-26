@@ -1,5 +1,5 @@
 .team__container {
-  background-color: #f5f4fa;
+  background-color: $iconBackground;
 }
 .team__box {
   display: flex;
@@ -9,9 +9,9 @@
 }
 .team__card-title {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: $fontSmall;
   line-height: 1.175;
-  color: var(--brand-black);
+  color: $brandBlack;
   padding-top: 30px;
   margin-bottom: 10px;
 }

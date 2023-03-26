@@ -4,7 +4,7 @@
 .form__title {
   padding-bottom: 12px;
   font-family: $familyRoboto;
-  font-weight: $fontBig;
+  font-weight: $fontMedium;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -75,11 +75,11 @@ input:focus {
   height: 120px;
   width: 432px;
   padding: 12px;
-}
 
-.form__comment:focus {
-  outline: none;
-  border: 1px solid $mainActive;
+  &:focus {
+    outline: none;
+    border: 1px solid $mainActive;
+  }
 }
 
 .form__comment::placeholder {
@@ -140,7 +140,7 @@ input:focus {
   margin-left: auto;
   margin-right: auto;
   font-family: $familyRoboto;
-  font-weight: $fontBig;
+  font-weight: $fontMedium;
   font-size: 16px;
   line-height: 1.85;
   background: $mainActive;

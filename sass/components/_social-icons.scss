@@ -4,22 +4,21 @@
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 16px;
-  fill: #afb1b8;
+  fill: $borderIcon;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-icons__item,
-.footer__item-icons {
+.social-icons__item {
   padding: 12px 12px;
   border-radius: 50%;
-}
-.social-icons__item:hover,
-.social-icons__item:focus,
-.social-icons__item:active {
-  background-color: var(--blue-color);
-  fill: #ffffff;
-  cursor: pointer;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $mainActive;
+    fill: #ffffffff;
+    cursor: pointer;
+  }
 }
 .social-icons__flex {
   display: block;

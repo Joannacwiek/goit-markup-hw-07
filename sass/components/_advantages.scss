@@ -4,7 +4,7 @@
   gap: 30px;
 }
 .advantages__item {
-  flex-basis: calc((100% - 90px) / 4);
+  flex-basis: calc(100% / 4);
 }
 .advantages__icon-background {
   background-color: $iconBackground;
