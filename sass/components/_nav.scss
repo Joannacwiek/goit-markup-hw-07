@@ -27,6 +27,9 @@
   &:visited {
     color: $mainActive;
   }
+  &:active {
+    color: $mainActive;
+  }
 }
 .nav__link.nav__link--current::after {
   content: "";
@@ -57,8 +60,5 @@
   &:hover {
     color: $mainActive;
     transform: scale(1.1);
-  }
-  &:active {
-    color: $mainActive;
   }
 }
