@@ -4,8 +4,8 @@
 }
 
 .nav__logo {
-  font-family: "Raleway";
-  font-weight: 700;
+  font-family: $familyRaleway;
+  font-weight: $fontMedium;
   font-size: 26px;
   line-height: 1.875;
   color: #000000;
@@ -23,10 +23,10 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav__link--current {
-  color: var(--blue-color);
+  color: $mainActive;
 }
 .nav__link--current:visited {
-  color: var(--blue-color);
+  color: $mainActive;
 }
 .nav__link.nav__link--current::after {
   content: "";
@@ -36,14 +36,14 @@
   display: block;
   width: 100%;
   height: 4px;
-  background-color: var(--blue-color);
+  background-color: $mainActive;
   border-radius: 2px;
 }
 
 .nav__link {
   position: relative;
-  color: var(--brand-black);
-  font-weight: 500;
+  color: $brandBlack;
+  font-weight: $fontSmall;
   line-height: 1.5;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -57,9 +57,9 @@
 
 .nav__link:focus,
 .nav__link:hover {
-  color: var(--blue-color);
+  color: $mainActive;
   transform: scale(1.1);
 }
 .nav__link:active {
-  color: var(--blue-color);
+  color: $mainActive;
 }
