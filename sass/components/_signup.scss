@@ -24,9 +24,10 @@
   color: $signup;
   font-size: 16px;
   font-weight: $fontMedium;
+  text-align: center;
   line-height: 1.6;
   letter-spacing: 0.06em;
-  position: absolute;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   align-items: baseline;
@@ -35,14 +36,14 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 12px;
   margin-top: 20px;
-  padding: 0px, 76px, 10px, 42px;
+  padding: 0px, 0px, 10px, 42px;
   cursor: pointer;
 }
 .signup__icon {
   fill: $signup;
   margin-left: 20px;
-  position: relative;
-  top: 7px;
+  position: absolute;
+  top: 13px;
 }
 .signup__input:focus-within {
   color: $signup;
