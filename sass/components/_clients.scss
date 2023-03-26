@@ -1,7 +1,6 @@
 .clients {
   text-align: center;
 }
-
 .clients__list {
   display: flex;
   justify-content: space-between;
@@ -9,29 +8,26 @@
 .clients__list-item {
   width: 170px;
   height: 92px;
-}
-.client__link {
   border: solid 1px;
   border-color: $borderIcon;
   border-radius: 4px;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #afb1b8;
   cursor: pointer;
   &:hover,
-  &:focus,
-  &:active {
+  &:focus {
     border-color: $mainActive;
     fill: $mainActive;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-.clients__icon-class {
-  fill: #afb1b8;
-  margin: 16px 32px;
+.client__link {
+  transition-property: color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.clients__icon-class {
+  margin: 16px 32px;
+  fill: #afb1b8;
   /*&:hover,
   &:focus,
   &:active {
