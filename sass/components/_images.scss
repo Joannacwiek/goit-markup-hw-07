@@ -13,8 +13,8 @@
   background-color: white;
   padding-right: 0px;
   padding-left: 0px;
-  width: 370px;
-  height: 100%;
+  min-width: 370px;
+  max-height: 404px;
   position: relative;
   overflow: hidden;
 
@@ -53,7 +53,7 @@
   background: #ffffff;
   border: 1px solid $borderImage;
   border-width: 0 1px 1px;
-  padding: 20px 20px 20px 24px;
+  padding: 20px 24px 20px 24px;
   margin-top: 0px;
   z-index: 10;
   position: relative;
@@ -66,7 +66,7 @@
 .images__title {
   font-weight: $fontMedium;
   font-size: 18px;
-  line-height: 2.25;
+  line-height: 2;
   color: $brandBlack;
   letter-spacing: 0.06em;
 }
