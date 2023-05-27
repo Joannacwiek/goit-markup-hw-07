@@ -5,11 +5,11 @@
 }
 .advantages__item {
   flex-basis: calc(100% / 4);
+  align-items: center;
 }
 .advantages__icon-background {
   background-color: $iconBackground;
   border-radius: 4px;
-  align-items: center;
 }
 .advantages__title {
   font-weight: $fontMedium;
