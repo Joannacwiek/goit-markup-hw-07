@@ -42,8 +42,8 @@
 .signup__icon {
   fill: $signup;
   margin-left: 20px;
-  position: absolute;
-  top: 13px;
+  position: relative;
+  top: 7px;
 }
 .signup__input:focus-within {
   color: $signup;
