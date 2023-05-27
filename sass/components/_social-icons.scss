@@ -16,7 +16,7 @@
   &:focus,
   &:active {
     background-color: $mainActive;
-    fill: #ffffffff;
+    fill: $textWhite;
     cursor: pointer;
   }
 }
