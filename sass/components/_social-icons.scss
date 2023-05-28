@@ -1,25 +1,29 @@
-.social-icons__list {
+.social-icons {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 10px;
-  margin-top: 16px;
   fill: $borderIcon;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 12px 12px;
   border-radius: 50%;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
-  &:focus,
-  &:active {
+  &:focus {
     background-color: $mainActive;
     fill: $textWhite;
     cursor: pointer;
   }
-}
-.social-icons__flex {
-  display: block;
+
+  &--footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: $textWhite;
+  }
 }
